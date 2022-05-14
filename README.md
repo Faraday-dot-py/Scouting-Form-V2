@@ -55,7 +55,7 @@ An application that allows students to collect scouting data without any sort of
             
             A more detailed description of the parameters and functions can be found in the file titled:
                                                   
-                                                Documentation.pdf
+                                                Documentation.pdf (DOES NOT EXIST YET)
                                                 
             REMINDER: This program was made for any computer with Python 3.9 installed. Older versions
                       of python may not work, or cause the program to work in unexpected ways.
