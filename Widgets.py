@@ -50,7 +50,7 @@ class Widget:
 
         
     def createBoolean(self, text, xPos, yPos):
-        value = tk.IntVar;
+        value = tk.IntVar();
         self.items.append([text,
                        tk.Checkbutton(self.form, text = text, bg = self.backgroundColor, fg = self.textColor, selectcolor = self.backgroundColor, variable = value, onvalue = 1, offvalue = 0),
                        value

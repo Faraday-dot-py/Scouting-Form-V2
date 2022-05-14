@@ -1,5 +1,6 @@
 import csv
 import os
+import tkinter as tk
 from datetime import datetime
 
 class Submitter:
@@ -31,12 +32,14 @@ class Submitter:
 
             print(val, type(val))
 
+
             if type(val) is int:
 
                 data.append(val)
 
             elif val != None:
                 #WORK HERE ----------------
+
                 data.append(val.get())
 
             else:
